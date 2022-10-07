@@ -1,0 +1,467 @@
+/*===== GOOGLE FONTS =====*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+
+/* This style is fpr Description */
+
+/*========== BASE ==========*/
+*,::before,::after{
+  box-sizing: border-box;
+}
+
+
+body{
+  margin: 3rem 0 0 0;
+   /*font-family: 'Poppins', sans-serif; 
+  font-family: 'Cookie', cursive;*/
+  font-size: 0.938rem;
+  background-image: url("C:/xampp/htdocs/cafefinalweb/assets/img/bg.jpg");
+  background-size: auto;
+  color: #030303;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+h1,h2,h3,p,ul{
+  margin: 0;
+}
+
+ul{
+  padding: 0;
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(4, 108, 49);
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+/*========== CLASS CSS ==========*/
+.section{
+  padding: 4rem 0 2rem;
+}
+
+.section-title{
+  font-size: 60px;
+    color: #000000;
+    margin: 70px 0px 0px 0px;
+}
+
+.section-subtitle{
+  display: block;
+  color: #000000;
+  font-weight: 500;
+  font-size: 125px;
+}
+
+/*========== LAYOUT ==========*/
+.bd-container{
+      /* max-width: 960px; */
+      width: 100%;
+      margin-left: 1rem;
+      margin-right: 1rem;
+      padding: 0px 0px 20px 100px;
+      background: #080808;
+}
+
+.bd-grid{
+  display: grid;
+  gap: 1.5rem;
+}
+
+.l-header{
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background-color: #FBFEFD;
+}
+
+/*========== NAV ==========*/
+.nav{
+  position: fixed;
+  width: 100vw;
+  height: 3rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: #015b2020;
+  backdrop-filter: blur(50px);
+  -webkit-backdrop-filter: blur(50px);
+}
+
+
+
+.nav__item{
+  margin-bottom: 1rem;
+}
+
+.nav__menu, .nav__logo, .nav__toggle{
+  color: #181818;
+  font-weight: 500;
+  margin: 0px 50px;
+}
+.nav__logo{
+  font-size: 30px;
+}
+
+.nav__link{
+  font-size: 27px;
+  transition: .3s;
+}
+
+
+.nav__toggle{
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+/* Show menu */
+.show-menu{
+  top: 3rem;
+}
+
+/* Active menu */
+.active-link{
+  color: #47380b;
+}
+
+/* Change background header */
+.scroll-header{
+  box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+
+
+/* home css */
+
+.button{
+  background: #707175;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 30px;
+  font-size: 17px;
+  position: relative;
+  top: 20px;
+}
+
+.home__title{
+  margin-top: 200px;
+  font-size: 125px;
+  color: #141820;
+}
+
+.home__subtitle{
+  font-size: 50px;
+  color: #141820;
+}
+.home_button {
+  font-size: 25px;
+  padding: 10px 30px;
+}
+
+
+/* about us css */
+
+.about__description{
+  font-size: 30px;
+}
+.about__data .section-subtitle{
+  margin-top: 70px;
+}
+
+/* contact us */
+
+.contact_section{
+  display: flex;
+  justify-content: space-evenly;
+  height: 100vh;
+  padding-top: 5vh;
+}
+.contact__data .section-title{
+  margin: 0;
+}
+.map{
+  padding-top: 200px;
+}
+.contact__description{
+  font-size: 30px;
+}
+form{
+  position: relative;
+  top: -30px;
+  /* width: 200px;
+  margin-left: 150px; */
+}
+form input, textarea{
+  margin: 5px 0px;
+  width: 300px;
+  padding: 4px 10px;
+  font-family: 'Cookie', cursive;
+  font-size: 20px;
+  border-radius: 4px;
+}
+form button{
+  display: block;
+  /* margin: auto; */
+  padding: 5px 20px;
+  font-size: 20px;
+  position: relative;
+  left: 100px;
+  font-family: 'Cookie', cursive;
+  border-radius: 4px;
+}
+
+
+.menu_section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.menu__content{
+  border: 2px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  
+}
+.menu__img {
+  height: 200px;
+  width: auto;
+}
+.menu__name, .menu__preci{
+  font-size: 30px;
+  text-align:center;
+}
+.menu__detail{
+  font-size: 20px;
+}
+
+.services_section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.services__container{
+  display: flex;
+  margin: 0!important;
+  padding: 30px;
+  justify-content: space-evenly;
+}
+.services__content{
+  width: 300px;
+  margin: 0px 30px;
+  text-align: center;
+
+  border-radius: 12px;
+  background: linear-gradient(145deg, #b0b0b1, #dddee3);
+  box-shadow:  5px 5px 12px #dbdde3, -5px -5px 12px #f6f8fb;
+  padding: 20px;
+}
+.services_section .services__title{
+  font-size: 40px;
+}
+.services_section .services__description{
+  font-size: 25px;
+}
+
+
+
+
+
+/*========== FOOTER ==========*/
+.footer__container{
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  row-gap: 2rem;
+}
+
+.footer__logo{
+  font-size: 50px;
+  color: #74e888;
+  font-weight: 600;
+}
+
+.footer__description{
+  display: block;
+  font-size: 0.875rem;
+  margin: .25rem 0 1.5rem;
+}
+
+.footer__social{
+  font-size: 35px;
+  color: #c1c1c1;
+  margin-right: 1rem;
+}
+
+.footer__title{
+  font-size: 30px;
+  color: #cbcbcb;
+  margin-bottom: 1rem;
+}
+
+.footer__link{
+  display: inline-block;
+  color: #707070;
+  margin-bottom: .5rem;
+}
+.footer__container li{
+  font-size: 20px;
+}
+
+
+.footer__copy{
+  text-align: center;
+  font-size: 0.875rem;
+  color: #A6A6A6;
+  margin-top: 3.5rem;
+}
+
+.footer__content{
+  color:#707070
+}
+
+
+
+
+
+
+  .home__container,
+  .about__container,
+  .app__container{
+    grid-template-columns: repeat(2,1fr);
+    /* align-items: center; */
+    height: 100vh;
+  }
+
+  .about__data, .about__initial,
+  .app__data, .app__initial,
+  .contact__container, .contact__initial{
+    text-align: initial;
+  }
+
+  .about__img, .app__img{
+    height: 725px;
+    top: 2px;
+    order: -1;
+    position: relative;
+  }
+
+  /* .contact__container{
+    grid-template-columns: 1.75fr 1fr;
+    align-items: center;
+  } */
+  .contact__button{
+    justify-self: center;
+  }
+
+
+
+  body{
+    margin: 0;
+  }
+
+  .section{
+    padding-top: 8rem;
+  }
+
+  .nav{
+    height: calc(3rem + 1.5rem);
+  }
+  .nav__list{
+    display: flex;
+  }
+  .nav__item{
+    margin-left: 2.5rem;
+    margin-bottom: 0;
+  }
+  .nav__toggle{
+    display: none;
+  }
+
+  .change-theme{
+    position: initial;
+    margin-left: 1rem;
+  }
+
+  .home__container{
+    height: 100vh;
+    justify-items: center;
+  }
+
+  .services__container,
+  _container{
+    margin-top: 3rem;
+  }
+
+  .menu__container{
+    grid-template-columns: repeat(2, 500px);
+    column-gap: 4rem;
+    justify-content: center;
+    
+  }
+  .menu__content{
+    padding: 1.5rem;
+  }
+
+
+  .app__store{
+    margin: 0 .5rem 0 0;
+  }
+
+.home__img{
+  position: relative;
+  right: -125px;
+  top: 23px;
+}
+
+  .bd-container{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .home__img{
+    width: 595px;
+  }
+
+  .about__container,
+  .app__container{
+    column-gap: 7rem;
+  }
+
+
+    .home__container {
+        height: 100vh;
+    }
+
+
+
+
+#lets_talk{
+  position: relative;
+  left: 28vw;
+}
+
+.image_container{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px;
+  justify-content: center;
+}
+.cafe_img{
+  height: 300px;
+  margin: 20px;
+}
