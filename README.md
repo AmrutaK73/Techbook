@@ -14,7 +14,7 @@ The aim of eBooks is to simplify and enhance the overall learning experience. D
 
 Instead of listening to one person continuously talking, students can now actively participate in the learning process. Integrating eBooks into classroom teaching makes learning a fun and engaging experience. Gone are the days when students had to carry a bag full of books every day to classrooms and back home.
 
-With eBooks entering the educational domain, one device is enough to include the entire year’s syllabus. These digital books can be introduced to students at a very young age, right from kindergarten to university level, ensuring that learning never becomes boring for them![image](https://user-images.githubusercontent.com/113935038/194585708-8228fb74-485f-4725-aa98-a4cca3f1f0c8.png)
+With eBooks entering the educational domain, one device is enough to include the entire year’s syllabus. These digital books can be introduced to students at a very young age, right from kindergarten to university level, ensuring that learning never becomes boring for them!
 
 So, we have built a website with help of HTML,CSS and Js
 We decide which e-books we want to sell as well as provide few free ebooks , then join the affiliate programs that issue links for those products.
